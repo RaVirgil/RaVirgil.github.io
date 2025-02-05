@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Photo Grid Banner -->
+    <div class="photo-grid">
+        <img src="photos/photo1.jpg" alt="Photo 1">
+        <img src="photos/photo2.jpg" alt="Photo 2">
+        <img id = "poz3" src="photos/photo3.jpg" alt="Photo 3">
+        <img src="photos/photo4.jpg" alt="Photo 4">
+        <img src="photos/photo5.jpg" alt="Photo 5">
+        <img src="photos/photo6.jpg" alt="Photo 6">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Do you want to be my Valentine?</h1>
+        <div class="buttons">
+            <button class="yes-btn" onclick="acceptProposal()">YES</button>
+            <button class="no-btn" onclick="increaseYesSize()">NO</button>
+        </div>
+    </div>
+
+    <!-- Confetti Effect -->
+    <div class="confetti" id="confetti"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
